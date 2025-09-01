@@ -16,12 +16,11 @@
    - Pastikan struktur folder seperti berikut:
      ```
      praktikum_1/
+     ├── assets/images/logo.jpg
      └── lib/
          ├── main.dart
          ├── images_widget.dart
-         ├── text_widget.dart
-         └── images/
-             └── logo.jpg
+         └── text_widget.dart
      ```
 
 3. **Membuat Widget Teks**
