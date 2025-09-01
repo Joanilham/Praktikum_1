@@ -1,16 +1,60 @@
-# praktikum_1
+# Praktikum 1 - Flutter Welcome Screen
 
-A new Flutter project.
+## Langkah-langkah Coding
 
-## Getting Started
+1. **Inisialisasi Project Flutter**
+   - Buat project baru dengan perintah:
+     ```
+     flutter create praktikum_1
+     ```
+   - Masuk ke folder project:
+     ```
+     cd praktikum_1
+     ```
 
-This project is a starting point for a Flutter application.
+2. **Struktur Folder**
+   - Pastikan struktur folder seperti berikut:
+     ```
+     praktikum_1/
+     └── lib/
+         ├── main.dart
+         ├── images_widget.dart
+         ├── text_widget.dart
+         └── images/
+             └── logo.jpg
+     ```
 
-A few resources to get you started if this is your first Flutter project:
+3. **Membuat Widget Teks**
+   - Buat file `text_widget.dart` di folder `lib`.
+   - Isi dengan kode widget untuk menampilkan teks sambutan.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+4. **Membuat Widget Gambar/Logo**
+   - Buat file `images_widget.dart` di folder `lib`.
+   - Isi dengan kode widget untuk menampilkan gambar/logo di dalam lingkaran.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+5. **Mengedit main.dart**
+   - Import kedua widget (`text_widget.dart` dan `images_widget.dart`).
+   - Gunakan kedua widget tersebut di dalam widget utama (`WelcomeScreen`).
+
+6. **Menambahkan Gambar**
+   - Tambahkan file gambar (misal: `logo.jpg`) ke dalam folder `images` di dalam folder `lib` atau di root project.
+   - Daftarkan gambar pada file `pubspec.yaml`:
+     ```yaml
+     flutter:
+       assets:
+         - images/logo.jpg
+     ```
+
+7. **Menjalankan Aplikasi**
+   - Jalankan aplikasi dengan perintah:
+     ```
+     flutter run
+     ```
+
+## Hasil
+Aplikasi akan menampilkan layar sambutan dengan teks dan logo di tengah layar dengan latar belakang biru.
+
+---
+
+**Catatan:**  
+Pastikan semua file sudah diimport dengan benar dan path gambar sesuai dengan struktur folder project
