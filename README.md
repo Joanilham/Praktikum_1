@@ -57,3 +57,5 @@ Aplikasi akan menampilkan layar sambutan dengan teks dan logo di tengah layar de
 
 **Catatan:**  
 Pastikan semua file sudah diimport dengan benar dan path gambar sesuai dengan struktur folder project
+
+![alt text](image.png)
