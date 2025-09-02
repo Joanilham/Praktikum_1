@@ -52,10 +52,9 @@
 
 ## Hasil
 Aplikasi akan menampilkan layar sambutan dengan teks dan logo di tengah layar dengan latar belakang biru.
-
+![alt text](image.png)
 ---
 
 **Catatan:**  
 Pastikan semua file sudah diimport dengan benar dan path gambar sesuai dengan struktur folder project
 
-![alt text](image.png)
